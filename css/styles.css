@@ -223,7 +223,7 @@ img {
   text-align: left;
   margin-top: 30px;
   margin-left: 30px;
-  flex-basis: calc(100%-120px) / 4;
+  flex-basis: calc((100%-120px) / 4);
 }
 .features-section-list-title {
   font-weight: 700;
@@ -259,11 +259,13 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 .what-we-do-list-item {
   margin-top: 30px;
   margin-left: 30px;
-  flex-basis: calc(100%-3 * 90) / 3;
+  flex-basis: calc((100%-90px) / 3);
 }
 .our-team-section {
   background: var(--background-color-gray);
