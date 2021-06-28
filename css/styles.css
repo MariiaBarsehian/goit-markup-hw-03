@@ -89,7 +89,6 @@ img {
   display: flex;
   margin-left: auto;
 }
-
 .current-page {
   font-weight: 500;
   font-size: 14px;
@@ -371,10 +370,42 @@ img {
   color: var(--text-color-hover);
 }
 /*===================portfolio===================*/
+.type-of-works-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-right: 93px;
+  margin-bottom: 50px;
+}
+.type-of-works-list:not(:last-child) {
+  margin-right: 8px;
+}
+.type-selection-btm {
+  border-radius: 4px;
+  padding: 6px 22px;
+}
 .works-example {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+
 }
 .works-example-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+.works-example-name-container {
+  padding: 30px 15px 10px 15px;
+}
+.works-example-type-container {
+  padding-bottom: 15px;
+
+}
+
+
 }
 .works-example-name {
   font-weight: 700;
@@ -382,10 +413,14 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color-main);
+  text-align: left;
+  padding: 20px 24px;
 }
 .works-example-type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
+  text-align: left;
+  padding: 4px 24px;
 }
