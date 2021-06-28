@@ -75,6 +75,7 @@ img {
   display: flex;
   margin-left: auto;
 }
+
 .current-page {
   font-weight: 500;
   font-size: 14px;
@@ -98,35 +99,24 @@ img {
   color: var(--text-color-main);
   display: block;
   padding: 32px 0px;
+  margin-right: 50px;
 }
 .menu-link:hover,
 .menu-link:focus {
   text-shadow: 0px 4px 4px var(--shadow-color-grey);
   color: var(--text-color-hover);
 }
-.menu-link-studio {
-  border: 0px;
-  display: flex;
-}
-.menu-link-portfolio {
-  border: 0px;
-  display: flex;
-  margin-right: 50px;
-}
-
-.menu-link-contacts {
-  border: 0px;
-  display: flex;
-}
 
 .contact-link {
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color-grey);
   text-decoration: none;
   display: block;
   padding: 32px 0px;
+  margin-right: 50px;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -137,16 +127,6 @@ img {
   color: var(--text-color-hover);
 }
 
-.contact-link-mail {
-  border: 0px;
-  display: flex;
-  margin-right: 50px;
-}
-.contact-link-tel {
-  border: 0px;
-  display: flex;
-  margin-left: 15px;
-}
 .hero-section-descisions {
   background: var(--background-color-dark);
   text-align: center;
