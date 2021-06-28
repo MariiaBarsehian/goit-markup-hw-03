@@ -33,6 +33,11 @@ ul {
   list-style: none;
   text-decoration: none;
 }
+figer {
+  margin: 0;
+  padding: 0;
+}
+
 img {
   display: block;
 }
@@ -47,6 +52,15 @@ img {
   width: 1200px;
   padding: 0px 15px;
 }
+
+.visualy-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -196,15 +210,22 @@ img {
 .features-section {
   margin: 94px 15px;
   padding: 0px;
+  padding-bottom: 47px;
 }
 .features-section-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
 }
-.features {
+.features-section-list-item {
   list-style: none;
-  display: flex;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100%-120px) / 4;
 }
-.features-item {
+.features-section-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -212,17 +233,19 @@ img {
   text-transform: uppercase;
   list-style: none;
   color: var(--text-color-main);
-  display: flex;
+  margin-bottom: 10px;
 }
-.detailed-features {
+.features-section-list-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
-  display: flex;
+}
+.what-we-do-section {
+  padding-top: 47px;
 }
 
-.what-we-do {
+.what-we-do-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -230,15 +253,22 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-main);
+  margin-bottom: 50px;
 }
 .what-we-do-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
-
+.what-we-do-list-item {
+  margin-top: 30px;
+  margin-left: 30px;
+  flex-basis: calc(100%-3 * 90) / 3;
+}
 .our-team-section {
   background: var(--background-color-gray);
 }
-.our-team {
+.our-team-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -246,10 +276,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-main);
+  margin-bottom: 50px;
 }
 
 .team-members {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .team-member-item {
