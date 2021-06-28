@@ -178,11 +178,6 @@ img {
   width: 1600px;
 }
 
-.type-of-works-buttons {
-  font-family: inherit;
-  list-style: none;
-}
-
 .type-selection-btm {
   font-family: inherit;
   font-weight: 500;
@@ -371,6 +366,9 @@ img {
 }
 /*===================portfolio===================*/
 .type-of-works-buttons {
+  font-family: inherit;
+  list-style: none;
+
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -390,37 +388,31 @@ img {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-
 }
 .works-example-item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
-.works-example-name-container {
-  padding: 30px 15px 10px 15px;
+.works-example-card-container {
+  text-align: left;
+  padding: 28px 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
-.works-example-type-container {
-  padding-bottom: 15px;
 
-}
-
-
-}
 .works-example-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-color-main);
-  text-align: left;
-  padding: 20px 24px;
+  margin-bottom: 4px;
 }
 .works-example-type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
-  text-align: left;
-  padding: 4px 24px;
 }
