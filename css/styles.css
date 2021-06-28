@@ -63,7 +63,6 @@ img {
   text-decoration: none;
   color: var(--text-color-logo-dark);
   letter-spacing: 0.03em;
-  width: 145px;
   display: block;
   padding: 24px 0px 25px;
   margin-right: 93px;
@@ -85,8 +84,6 @@ img {
   list-style: none;
   color: var(--text-color-hover);
   text-shadow: 0px 4px 4px var(--shadow-color-grey);
-  width: 49px;
-  height: 16px;
   display: block;
   padding: 32px 0px;
   margin-right: 50px;
@@ -108,22 +105,16 @@ img {
   color: var(--text-color-hover);
 }
 .menu-link-studio {
-  width: 49px;
-  height: 16px;
   border: 0px;
   display: flex;
 }
 .menu-link-portfolio {
-  width: 77px;
-  height: 16px;
   border: 0px;
   display: flex;
   margin-right: 50px;
 }
 
 .menu-link-contacts {
-  width: 68px;
-  height: 16px;
   border: 0px;
   display: flex;
 }
@@ -147,15 +138,11 @@ img {
 }
 
 .contact-link-mail {
-  width: 161px;
-  height: 16px;
   border: 0px;
   display: flex;
   margin-right: 50px;
 }
 .contact-link-tel {
-  width: 142px;
-  height: 16px;
   border: 0px;
   display: flex;
   margin-left: 15px;
@@ -174,12 +161,10 @@ img {
   text-transform: uppercase;
   color: var(--text-color-white);
   max-width: 696px;
-  margin: 0px auto;
+  margin: 0 auto 30px;
 }
 
-}
 .order-btm {
-  min-width: 200px;
   padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
@@ -190,7 +175,6 @@ img {
   background: var(--background-color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-bottom: 200px;
 }
 .order-btm:hover,
 .order-btm:focus {
@@ -199,7 +183,6 @@ img {
 
 .descisions {
   width: 1600px;
-  height: 600px;
 }
 
 .type-of-works-buttons {
@@ -231,20 +214,14 @@ img {
 }
 
 .features-section {
-  width: 1170px;
-  height: 251px;
   margin: 94px 15px;
   padding: 0px;
 }
 .features-section-list {
-  width: 270px;
-  height: 251px;
   display: flex;
 }
 .features {
   list-style: none;
-  width: 270px;
-  height: 251px;
   display: flex;
 }
 .features-item {
@@ -255,8 +232,6 @@ img {
   text-transform: uppercase;
   list-style: none;
   color: var(--text-color-main);
-  width: 270px;
-  height: 16px;
   display: flex;
 }
 .detailed-features {
@@ -264,8 +239,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
-  width: 270px;
-  height: 75px;
   display: flex;
 }
 
@@ -300,7 +273,6 @@ img {
 }
 
 .team-member-item {
-  width: 270px;
   margin: 0;
   background-color: var(--background-color-main);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
