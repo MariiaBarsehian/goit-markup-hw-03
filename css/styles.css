@@ -89,6 +89,9 @@ img {
   display: flex;
   margin-left: auto;
 }
+.current-page-list:not(:last-child) {
+  margin-right: 50px;
+}
 .current-page {
   font-weight: 500;
   font-size: 14px;
@@ -100,7 +103,6 @@ img {
   text-shadow: 0px 4px 4px var(--shadow-color-grey);
   display: block;
   padding: 32px 0px;
-  margin-right: 50px;
 }
 .menu-link {
   font-weight: 500;
@@ -168,6 +170,7 @@ img {
   background: var(--background-color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 .order-btm:hover,
 .order-btm:focus {
@@ -188,9 +191,6 @@ img {
   color: var(--text-color-main);
   border: none;
   cursor: pointer;
-}
-.type-selection-btm-all {
-  color: var(--text-color-hover);
 }
 
 .type-selection-btm:hover,
@@ -291,8 +291,9 @@ img {
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
-.team-member-name-container {
+.team-member-container {
   padding: 30px 15px 10px 15px;
+  line-height: 19px;
 }
 .team-member-position-container {
   padding-bottom: 15px;
@@ -304,6 +305,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-main);
+  padding-bottom: 15px;
 }
 .team-member-position {
   font-size: 16px;
@@ -311,6 +313,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
+  padding-bottom: 15px;
 }
 /* ================footer================*/
 .footer {
@@ -329,7 +332,6 @@ img {
   display: block;
   margin-bottom: 20px;
 }
-
 .link-adress {
   font-style: normal;
   font-weight: 400;
@@ -339,15 +341,13 @@ img {
   text-decoration: none;
   color: var(--text-color-white);
   display: block;
-  margin-bottom: 9px;
-}
-.link-adress:hover,
-.link-adress:focus {
-  color: var(--text-color-hover);
 }
 
 .footer-contacts {
   list-style: none;
+}
+.footer-contacts-list {
+  margin-bottom: 9px;
 }
 .footer-contacts-item {
   font-style: normal;
@@ -358,11 +358,6 @@ img {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   display: block;
-  margin-bottom: 9px;
-}
-.footer-contacts-item:hover,
-.footer-contacts-item:focus {
-  color: var(--text-color-hover);
 }
 /*===================portfolio===================*/
 .type-of-works-buttons {
