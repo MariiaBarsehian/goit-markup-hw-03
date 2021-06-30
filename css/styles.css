@@ -89,7 +89,7 @@ img {
   display: flex;
   margin-left: auto;
 }
-.current-page-list {
+.current-page-list:not(:last-child) {
   margin-right: 50px;
 }
 .current-page {
@@ -120,7 +120,7 @@ img {
   text-shadow: 0px 4px 4px var(--shadow-color-grey);
   color: var(--text-color-hover);
 }
-.menu-list {
+.menu-list:not(:last-child) {
   margin-right: 50px;
 }
 .contact-link {
@@ -292,7 +292,7 @@ img {
   flex-basis: calc((100% - 120px) / 4);
 }
 .team-member-container {
-  padding: 30px 15px 10px 15px;
+  padding: 30px 15px 30px 15px;
   line-height: 19px;
 }
 .team-member-position-container {
@@ -305,7 +305,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-main);
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 .team-member-position {
   font-size: 16px;
@@ -313,7 +313,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-grey);
-  padding-bottom: 15px;
 }
 /* ================footer================*/
 .footer {
@@ -346,7 +345,7 @@ img {
 .footer-contacts {
   list-style: none;
 }
-.footer-contacts-list {
+.footer-contacts-list:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-contacts-item {
